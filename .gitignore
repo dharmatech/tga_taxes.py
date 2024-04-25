@@ -1,3 +1,5 @@
+*.html
+/archive
 /example-dts-deposits-withdrawals-taxes.py
 /services-api-fiscal-service-v1-accounting-dts-deposits-withdrawals-operating-cash.pkl
 /tga_taxes.html
