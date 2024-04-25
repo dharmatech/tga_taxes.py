@@ -50,6 +50,12 @@ p.vbar_stack(stackers=pivot_df.columns, x='record_date', width=width, source=piv
 
 p.xaxis.ticker = bokeh.models.DatetimeTicker(desired_num_ticks=30)
 
+p.yaxis.formatter = NumeralTickFormatter(format='$0a')
+
+# add more labels to y-axis
+
+p.yaxis.ticker = bokeh.models.SingleIntervalTicker(interval=10000)
+
 p.legend.click_policy = 'hide'
 
 p.legend.location = 'top_left'
