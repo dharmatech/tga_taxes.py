@@ -54,4 +54,8 @@ p.legend.click_policy = 'hide'
 
 p.legend.location = 'top_left'
 
+p.yaxis.formatter = NumeralTickFormatter(format='$0a')
+
+p.yaxis.ticker = bokeh.models.SingleIntervalTicker(interval=100000)
+
 show(p)
