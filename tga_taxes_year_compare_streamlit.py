@@ -66,3 +66,5 @@ https://github.com/dharmatech/tga_taxes.py/blob/main/tga_taxes_year_compare_stre
 """
 
 st.markdown(md)
+
+st.button(label='Clear Cache', on_click= lambda: load_dataframe.clear())
