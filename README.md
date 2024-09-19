@@ -14,6 +14,12 @@ See this twitter post for a video demo:
 
 https://twitter.com/dharmatrade/status/1777132347399512369
 
+### tga_taxes_year_compare_streamlit.py
+
+Video demo:
+
+https://x.com/dharmatrade/status/1836604001615319445
+
 # Thanks
 
 Thanks to Muhammed Samed Ozmen. His [answer here](https://stackoverflow.com/a/78287541/268581) helped tremendously.
